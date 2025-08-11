@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className="bg-slate-900 text-white p-4 sticky top-0 z-10 dark:bg-gray-800 dark:text-white">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <div className="max-w-6xl mx-auto flex justify-between items-center ">
         {/* LOGO y TÍTULO de E-Tienda */}
         <div className='flex items-center gap-2'>
           <img
@@ -37,7 +37,7 @@ const Header = () => {
             alt="LogoJS"
             className='w-[40px] p-0.5'
           />
-          <h1 className='text-white font-bold text-2xl'>Personajes</h1>
+          <h1 className='text-white font-bold text-2xl'>Rick & Morty</h1>
         </div>
 
         {/* NAVEGACIÓN LINKS DESKTOP */}
